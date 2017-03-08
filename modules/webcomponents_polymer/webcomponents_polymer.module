@@ -135,10 +135,14 @@ function _webcomponents_polymer_process_component($file) {
   unset($html_obj);
   if (isset($component))
   {
-  return $component;  
+    return $component;  
   }
   else
   {
     return NULL;
   }
+}
+
+function webcomponents_polymer_enable() {
+  webcomponents_polymer_webcomponents();
 }
