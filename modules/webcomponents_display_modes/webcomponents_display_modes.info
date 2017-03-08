@@ -1,0 +1,12 @@
+name = Webcomponents: Display modes
+description = Provides display modes based on webcomponent entities.
+core = 7.x
+dependencies[] = webcomponents
+dependencies[] = field_formatter_settings
+
+; Information added by Drupal.org packaging script on 2017-02-08
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "webcomponents"
+datestamp = "1486590352"
+

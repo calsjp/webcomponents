@@ -1,0 +1,11 @@
+name = Webcomponents: WYSIWYG Templates
+description = Provides wysiwyg template support to webcomponents.
+core = 7.x
+dependencies[] = webcomponents
+
+; Information added by Drupal.org packaging script on 2017-02-08
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "webcomponents"
+datestamp = "1486590352"
+
