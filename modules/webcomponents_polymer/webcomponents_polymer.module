@@ -133,5 +133,12 @@ function _webcomponents_polymer_process_component($file) {
   // Release resources to avoid memory leak in some versions.
   $html_obj->clear();
   unset($html_obj);
-  return $component;
+  if (isset($component))
+  {
+  return $component;  
+  }
+  else
+  {
+    return NULL;
+  }
 }
